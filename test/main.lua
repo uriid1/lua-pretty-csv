@@ -1,6 +1,6 @@
 local csv = require('pretty-csv')
 
-local data = csv.parse('test.csv', { sep = ',', limit = 20, word_len = 30 })
+local data = csv.parse('payment.csv', { sep = ',', limit = 20, word_len = 30 })
 csv.render(data)
 
 local total_sum = 0
