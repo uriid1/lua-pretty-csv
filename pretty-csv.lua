@@ -231,6 +231,7 @@ local function render(csv_table)
       cprint('┴', COLOR.gray)
     end
   end
+  io.write('\n')
 end
 
 return {
